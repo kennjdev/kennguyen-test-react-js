@@ -1,0 +1,36 @@
+/*[ FONT ]*/
+@font-face {
+      font-family: 'Baloo2';
+      font-style: normal;
+      font-weight: 400;
+      src: url(../fonts/baloo2/Baloo2-Regular.ttf);
+}
+@font-face {
+      font-family: 'Baloo2';
+      font-style: normal;
+      font-weight: 500;
+      src: url(../fonts/baloo2/Baloo2-Medium.ttf);
+}
+@font-face {
+      font-family: 'Baloo2';
+      font-style: normal;
+      font-weight: 600;
+      src: url(../fonts/baloo2/Baloo2-Bold.ttf);
+}
+
+@font-face {
+      font-family: 'Marcellus';
+      font-style: normal;
+      font-weight: 400;
+      src: url(../fonts/marcellus/Marcellus-Regular.ttf);
+}
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body, html {
+      height: 100%;
+      font-family: Baloo2 !important;
+}
