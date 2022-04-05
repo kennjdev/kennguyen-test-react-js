@@ -65,7 +65,6 @@ const Transactions = (props) => {
       const users = useSelector(state => state.users.list)
       const dispatch = useDispatch()
       useEffect(() => {
-            console.log(transactions)
             async function fetchData() {
                   if (!transactions.length) {
                         setLoading(true)

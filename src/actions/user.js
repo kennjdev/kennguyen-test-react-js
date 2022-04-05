@@ -19,7 +19,6 @@ export const getTransactionDetailById = (id) => {
      })
 }
 export const getLastTransactionIdByCreditCardId = (ccid) => {
-      console.log(ccid)
       return new Promise((resolve, reject) => {
              axiosInstance.get('/transactions/'+ccid).then(res => {
                   let allTransactionsByCcid = res.data
